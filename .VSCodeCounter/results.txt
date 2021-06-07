@@ -1,0 +1,94 @@
+Date : 2019-12-05 11:33:08
+Directory : e:\qisdk_navigation_demo
+Total : 43 files,  2595 codes, 242 comments, 291 blanks, all 3128 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Java       |         14 |      1,703 |        221 |        196 |      2,120 |
+| XML        |         22 |        733 |          3 |         53 |        789 |
+| Groovy     |          3 |         76 |          5 |         11 |         92 |
+| Batch      |          1 |         61 |          0 |         24 |         85 |
+| Markdown   |          1 |         16 |          0 |          3 |         19 |
+| Properties |          2 |          6 |         13 |          4 |         23 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                           | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                              |         43 |      2,595 |        242 |        291 |      3,128 |
+| app                                                                                                            |         37 |      2,487 |        226 |        253 |      2,966 |
+| app\src                                                                                                        |         36 |      2,436 |        224 |        249 |      2,909 |
+| app\src\main                                                                                                   |         36 |      2,436 |        224 |        249 |      2,909 |
+| app\src\main\assets                                                                                            |          1 |          4 |          0 |          1 |          5 |
+| app\src\main\assets\robot                                                                                      |          1 |          4 |          0 |          1 |          5 |
+| app\src\main\java                                                                                              |         14 |      1,703 |        221 |        196 |      2,120 |
+| app\src\main\java\cn                                                                                           |         14 |      1,703 |        221 |        196 |      2,120 |
+| app\src\main\java\cn\softbankrobotics                                                                          |         14 |      1,703 |        221 |        196 |      2,120 |
+| app\src\main\java\cn\softbankrobotics\navigation                                                               |         14 |      1,703 |        221 |        196 |      2,120 |
+| app\src\main\java\cn\softbankrobotics\navigation\callback                                                      |          3 |         13 |          0 |          8 |         21 |
+| app\src\main\java\cn\softbankrobotics\navigation\fragment                                                      |          4 |        989 |         97 |         80 |      1,166 |
+| app\src\main\java\cn\softbankrobotics\navigation\utils                                                         |          4 |        294 |         85 |         52 |        431 |
+| app\src\main\res                                                                                               |         20 |        703 |          3 |         48 |        754 |
+| app\src\main\res\drawable                                                                                      |          6 |        223 |          0 |          8 |        231 |
+| app\src\main\res\drawable-v24                                                                                  |          1 |         34 |          0 |          1 |         35 |
+| app\src\main\res\layout                                                                                        |          5 |        324 |          0 |         27 |        351 |
+| app\src\main\res\menu                                                                                          |          1 |         15 |          0 |          5 |         20 |
+| app\src\main\res\mipmap-anydpi-v26                                                                             |          2 |         10 |          0 |          0 |         10 |
+| app\src\main\res\values                                                                                        |          4 |         57 |          3 |          6 |         66 |
+| app\src\main\res\values-zh-rCN                                                                                 |          1 |         40 |          0 |          1 |         41 |
+| gradle                                                                                                         |          1 |          5 |          1 |          1 |          7 |
+| gradle\wrapper                                                                                                 |          1 |          5 |          1 |          1 |          7 |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                       | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\qisdk_navigation_demo\README.md                                                                             | Markdown   |         16 |          0 |          3 |         19 |
+| e:\qisdk_navigation_demo\app\build.gradle                                                                      | Groovy     |         51 |          2 |          4 |         57 |
+| e:\qisdk_navigation_demo\app\src\main\AndroidManifest.xml                                                      | XML        |         26 |          0 |          4 |         30 |
+| e:\qisdk_navigation_demo\app\src\main\assets\robot\robotsdk.xml                                                | XML        |          4 |          0 |          1 |          5 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\Constant.java                        | Java       |          6 |          0 |          2 |          8 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\MainActivity.java                    | Java       |        332 |         25 |         43 |        400 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\MyApplication.java                   | Java       |         69 |         14 |         11 |         94 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\callback\EnterRobotInfoCallBack.java | Java       |          5 |          0 |          4 |          9 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\callback\InitServiceCallBack.java    | Java       |          4 |          0 |          2 |          6 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\callback\SayCallBack.java            | Java       |          4 |          0 |          2 |          6 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\fragment\BaseFragment.java           | Java       |         20 |          0 |          6 |         26 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\fragment\CreateMapFragment.java      | Java       |        359 |         28 |         27 |        414 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\fragment\LoadMapFragment.java        | Java       |        193 |         11 |         24 |        228 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\fragment\NavigationFragment.java     | Java       |        417 |         58 |         23 |        498 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\utils\FolderUtils.java               | Java       |         32 |          2 |          7 |         41 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\utils\LogUtils.java                  | Java       |         51 |          9 |         16 |         76 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\utils\ToolUtils.java                 | Java       |         85 |          7 |         12 |        104 |
+| e:\qisdk_navigation_demo\app\src\main\java\cn\softbankrobotics\navigation\utils\ZXingUtils.java                | Java       |        126 |         67 |         17 |        210 |
+| e:\qisdk_navigation_demo\app\src\main\res\drawable-v24\ic_launcher_foreground.xml                              | XML        |         34 |          0 |          1 |         35 |
+| e:\qisdk_navigation_demo\app\src\main\res\drawable\ic_launcher_background.xml                                  | XML        |        170 |          0 |          1 |        171 |
+| e:\qisdk_navigation_demo\app\src\main\res\drawable\ic_localize.xml                                             | XML        |          9 |          0 |          1 |         10 |
+| e:\qisdk_navigation_demo\app\src\main\res\drawable\ic_map.xml                                                  | XML        |          9 |          0 |          1 |         10 |
+| e:\qisdk_navigation_demo\app\src\main\res\drawable\ic_map_default.xml                                          | XML        |          5 |          0 |          1 |          6 |
+| e:\qisdk_navigation_demo\app\src\main\res\drawable\ic_navigation.xml                                           | XML        |          9 |          0 |          1 |         10 |
+| e:\qisdk_navigation_demo\app\src\main\res\drawable\spinner.xml                                                 | XML        |         21 |          0 |          3 |         24 |
+| e:\qisdk_navigation_demo\app\src\main\res\layout\activity_main.xml                                             | XML        |         22 |          0 |          2 |         24 |
+| e:\qisdk_navigation_demo\app\src\main\res\layout\dialog_robot_info.xml                                         | XML        |         28 |          0 |          6 |         34 |
+| e:\qisdk_navigation_demo\app\src\main\res\layout\fragment_create_map.xml                                       | XML        |        160 |          0 |         11 |        171 |
+| e:\qisdk_navigation_demo\app\src\main\res\layout\fragment_load_map.xml                                         | XML        |         94 |          0 |          6 |        100 |
+| e:\qisdk_navigation_demo\app\src\main\res\layout\fragment_navigation.xml                                       | XML        |         20 |          0 |          2 |         22 |
+| e:\qisdk_navigation_demo\app\src\main\res\menu\bottom_nav_menu.xml                                             | XML        |         15 |          0 |          5 |         20 |
+| e:\qisdk_navigation_demo\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml                                    | XML        |          5 |          0 |          0 |          5 |
+| e:\qisdk_navigation_demo\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml                              | XML        |          5 |          0 |          0 |          5 |
+| e:\qisdk_navigation_demo\app\src\main\res\values-zh-rCN\strings.xml                                            | XML        |         40 |          0 |          1 |         41 |
+| e:\qisdk_navigation_demo\app\src\main\res\values\colors.xml                                                    | XML        |          6 |          0 |          1 |          7 |
+| e:\qisdk_navigation_demo\app\src\main\res\values\dimens.xml                                                    | XML        |          4 |          1 |          1 |          6 |
+| e:\qisdk_navigation_demo\app\src\main\res\values\strings.xml                                                   | XML        |         40 |          0 |          1 |         41 |
+| e:\qisdk_navigation_demo\app\src\main\res\values\styles.xml                                                    | XML        |          7 |          2 |          3 |         12 |
+| e:\qisdk_navigation_demo\build.gradle                                                                          | Groovy     |         24 |          3 |          6 |         33 |
+| e:\qisdk_navigation_demo\gradle.properties                                                                     | Properties |          1 |         12 |          3 |         16 |
+| e:\qisdk_navigation_demo\gradle\wrapper\gradle-wrapper.properties                                              | Properties |          5 |          1 |          1 |          7 |
+| e:\qisdk_navigation_demo\gradlew.bat                                                                           | Batch      |         61 |          0 |         24 |         85 |
+| e:\qisdk_navigation_demo\settings.gradle                                                                       | Groovy     |          1 |          0 |          1 |          2 |
+| Total                                                                                                          |            |      2,595 |        242 |        291 |      3,128 |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
