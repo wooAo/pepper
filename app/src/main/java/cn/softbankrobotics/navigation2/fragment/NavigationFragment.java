@@ -204,7 +204,7 @@ public class NavigationFragment extends BaseFragment implements View.OnClickList
      * 初始化地图数据，导航点按钮及其监听
      *      利用recycleView实现动态添加导航点，根据所加载的地图确定导航点
      */
-    private void initData() {
+    private void initData(){
         // 获取 地图
         mExplorationMap = mActivity.getExplorationMap();
         // 获取 导航点集合
@@ -367,9 +367,9 @@ public class NavigationFragment extends BaseFragment implements View.OnClickList
             switch (goToStatus){
                 case FINISHED:
                     // 转身
-                    LogUtils.d(TAG, "goToTarget: 开始转身");
+                    //LogUtils.d(TAG, "goToTarget: 开始转身");
 
-                    Actuation actuation = MyApplication.getInstance().getQiContext().getActuation();
+                    /*Actuation actuation = MyApplication.getInstance().getQiContext().getActuation();
                     Frame robotFrame = actuation.robotFrame();
                     FreeFrame targetFrame = MyApplication.getInstance().getQiContext().getMapping().makeFreeFrame();
                     Transform turnAround = TransformBuilder.create().from2DTransform(0d, 0d, Math.PI);
@@ -378,14 +378,12 @@ public class NavigationFragment extends BaseFragment implements View.OnClickList
                             .withFrame(targetFrame.frame())
                             .build();
 
-                    goTo.async().run();
+                    goTo.async().run();*/
 
-                    FutureUtils.wait(3, TimeUnit.SECONDS).thenConsume(ignore -> {
-                        LogUtils.d(TAG, "成功达到 : " + location);
-                        // 获取当前导航点 信息
-                        String introduction = getIntroduction(location);
-                        ToolUtils.sayAndAsync(introduction);
-                    });
+                    LogUtils.d(TAG, "成功达到 : " + location);
+                    // 获取当前导航点 信息
+                    String introduction = getIntroduction(location);
+                    ToolUtils.sayAndAsync(introduction);
 
                     break;
                 case CANCELLED:
