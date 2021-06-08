@@ -1,7 +1,7 @@
 ## CreateMapFragment
 
 1. create Map
-   1. Localize pepper
+   1. localize pepperl
    2. scan the Map
    3. save Map
 2. create Map point
